@@ -1,1 +1,1 @@
-Personal portfolio - work in proggress.
+Personal portfolio - basic layout without animations.
