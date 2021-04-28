@@ -1,0 +1,58 @@
+//
+////CONTACT SECTION
+//
+
+.contact{
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+
+}
+
+.contact-text-wrapper{
+    margin-left: 40px;
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.text-wrapper2{
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 20%;
+    margin-bottom: 10%;
+}
+
+.contact-details{
+    color: $light-gray;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.linkedin{
+    font-size: 40px;
+    color: $light-yellow;
+}
+
+.credits-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.credits-wrapper{
+    height: 8vh;
+    width: 98vw;
+    font-size: 12px;
+    border-top: solid 1px $light-gray;
+    color: $light-gray;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
