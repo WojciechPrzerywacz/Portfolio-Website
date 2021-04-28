@@ -3,6 +3,7 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   scroll-behavior: smooth;
+  font-size: 16px;
 }
 
 *, *::before, *::after {
@@ -28,7 +29,6 @@ body {
   padding: 0;
   background-color: #323232;
   font-family: 'sedanregular';
-  font-weight: 400;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -43,6 +43,30 @@ body {
       flex-wrap: wrap;
   font-family: 'Cormorant Garamond', serif;
   font-weight: 400;
+}
+
+@media screen and (max-width: 1300px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 6px;
+  }
 }
 
 h1 {
@@ -221,7 +245,7 @@ h2 {
 
 .logo {
   margin-left: 20px;
-  font-size: 30px;
+  font-size: 3em;
   color: #ffffff;
 }
 
@@ -267,14 +291,20 @@ h2 {
 }
 
 .row {
-  width: 100%;
   height: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-item-align: center;
       align-self: center;
 }
@@ -316,6 +346,29 @@ h2 {
   opacity: 0;
 }
 
+@media screen and (max-width: 1300px) {
+  .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .about-text {
+    margin-top: 20px;
+  }
+  .portrait-image {
+    height: 200px;
+    width: 200px;
+  }
+  .portrait-image-yellow {
+    height: 200px;
+    width: 200px;
+  }
+}
+
 .img-wrap {
   width: 50%;
   display: -webkit-box;
@@ -341,7 +394,7 @@ h2 {
       -ms-flex-align: center;
           align-items: center;
   color: white;
-  font-size: 40px;
+  font-size: 2em;
   margin-right: 0px;
 }
 
@@ -439,7 +492,7 @@ h2 {
 }
 
 .linkedin {
-  font-size: 40px;
+  font-size: 2em;
   color: #FFCB4F;
 }
 
@@ -458,7 +511,7 @@ h2 {
 .credits-wrapper {
   height: 8vh;
   width: 98vw;
-  font-size: 12px;
+  font-size: .5em;
   border-top: solid 1px #E5E5E5;
   color: #E5E5E5;
   display: -webkit-box;

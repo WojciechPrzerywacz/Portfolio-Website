@@ -32,12 +32,16 @@
 }
 
 .row{
-    width: 100%;
+    //width: 100%;
     height: 80%;
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
     align-self: center;
 }
+
+
 .row2{
     width: 100%;
     height: 20%;
@@ -66,6 +70,24 @@
         }
 }
 
+@media screen and (max-width: 1300px) {
+    .row{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .about-text{
+        margin-top: 20px;
+    }
+    .portrait-image{
+        height: 200px;
+        width: 200px;
+    }
+    .portrait-image-yellow{
+        height: 200px;
+        width: 200px;
+    }
+}
+
 .img-wrap{
     width: 50%;
     display: flex;
@@ -79,7 +101,7 @@
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 40px;
+    font-size: 2em;
     margin-right: 0px;
 }
 
