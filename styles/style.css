@@ -43,6 +43,7 @@ body {
       flex-wrap: wrap;
   font-family: 'Cormorant Garamond', serif;
   font-weight: 400;
+  min-width: 300px;
 }
 
 @media screen and (max-width: 1300px) {
@@ -251,6 +252,7 @@ h2 {
 
 .front-page {
   height: 100vh;
+  min-height: 350px;
 }
 
 .typing1 {
@@ -288,6 +290,7 @@ h2 {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   height: 100vh;
+  min-height: 450px;
 }
 
 .row {
@@ -415,6 +418,7 @@ h2 {
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
   height: 100vh;
+  min-height: 450px;
 }
 
 .paragh {
@@ -448,6 +452,7 @@ h2 {
           align-items: center;
   -ms-flex-wrap: wrap-reverse;
       flex-wrap: wrap-reverse;
+  min-height: 450px;
 }
 
 .contact-text-wrapper {
