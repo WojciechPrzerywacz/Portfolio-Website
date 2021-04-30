@@ -37,9 +37,18 @@
         width: 60%;
     }
 }
-
+@media screen and (max-width: 780px) {
+    .nav-sections{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .nav-sections{
+        width: 70%;
+    }
+}
 //BURGER
-.burger-menu{
+/*.burger-menu{
     cursor: pointer;
     display: none;
 }
@@ -76,21 +85,40 @@
         display: block;
     }
 }
-
+*/
 .highlight{
 
-  color: $white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 150px;
-  height: 40px;
-  border: solid 2px $light-yellow;
-  border-radius: 100px;
-  &:hover{
-      background-color: $light-yellow;
-      color: $dark-gray;
-  }
+    text-decoration: none;
+    margin: auto;
+    width: 50%;
+    background-color: $dark-gray;
+    color: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+    width: 160px;
+    height: 50px;
+    border: solid 2px $light-yellow;
+    border-radius: 100px;
+    transition: .5s background-color ease-out;
+    &:hover{
+        background-color: $light-yellow;
+        color: $dark-gray;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .highlight{
+        width: 106.67px;
+        height: 33.33px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .highlight{
+        width: 80px;
+        height: 25px;
+    }
 }
 
 //logo

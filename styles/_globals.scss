@@ -45,17 +45,16 @@ body{
     body{
         font-size: 12px;
     }
+    .nav-bar{width: 100vw;}
+    .front-page{width: 100vw;}
+    .about-section{width: 100vw;}
+    .my-projects{width: 100vw;}
+    .contact{width: 100vw;}
 }
 
 @media screen and (max-width: 600px) {
     body{
-        font-size: 8px;
-    } 
-}
-
-@media screen and (max-width: 500px) {
-    body{
-        font-size: 6px;
+        font-size: 10px;
     } 
 }
 
@@ -79,7 +78,6 @@ h2{
 .next-button{
     text-decoration: none;
     margin: auto;
-    width: 50%;
     background-color: $dark-gray;
     color: $white;
     display: flex;
