@@ -1,2 +1,3 @@
-Personal portfolio - basic layout without animations.
-mobile to add
+Portfolio website
+
+Live version: https://wojciechprzerywacz.github.io/Portfolio-Website/
